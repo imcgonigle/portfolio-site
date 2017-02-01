@@ -3,5 +3,6 @@
 // Defining the application module
 angular.module('app', [ 
     'siteHeader',
-    'introSection'
+    'introSection',
+    'portfolio'
 ]);
