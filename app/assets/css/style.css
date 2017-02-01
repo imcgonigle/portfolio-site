@@ -1,5 +1,6 @@
 body {
-    background: #fefefe;
+    font-size: medium;
+    background: #fef7f0;
     color: #373C44;
 }
 
@@ -20,4 +21,20 @@ body {
     font-size: 1.5rem;
     font-weight: 700;
     color: #373C44;
+}
+
+.intro-section {
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+}
+
+.profile-picture {
+    max-height: 17rem;
+    border-radius: 50%;
+    border: 2px solid #666;
+}
+
+.intro-text {
+    padding: 2rem;
+    font-size: 1.3rem;
 }
