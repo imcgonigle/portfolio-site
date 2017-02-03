@@ -5,7 +5,7 @@
   "repository": {},
   "license": "MIT",
   "scripts": {
-    "start": "lite-server"
+    "start": "gulp"
   },
   "devDependencies": {
     "browser-sync": "^2.18.7",
