@@ -1,0 +1,18 @@
+.contact-container{
+    padding: 3rem;
+
+    .row {
+        margin-bottom: 3rem;
+    }
+    a {
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+        
+        i{
+            font-size: 2.3rem;
+            color: $colorPrimary;
+            margin-right: 0.5rem;
+        }
+    }
+}

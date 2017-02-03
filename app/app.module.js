@@ -1,8 +1,12 @@
-'use strict';
+(function () {
+    'use strict';
 
-// Defining the application module
-angular.module('app', [ 
-    'siteHeader',
-    'introSection',
-    'portfolio'
-]);
+    // Defining the application module
+    angular.module('app', [ 
+        'siteHeader',
+        'introSection',
+        'portfolio',
+        'contact'
+    ]);
+    
+}());

@@ -1,0 +1,19 @@
+<section class="portfolio-section">
+    <div class="row">
+        <h2 class="medium-12 columns text-center">Portfolio</h2>
+    </div>
+    <div class="row">
+        <div class="small-12 medium-4 large-3 columns" ng-repeat="project in $ctrl.projects">
+            <div class="card">
+                <div class="card-divider">
+                    <h3 class="text-center">{{ project.title }}</h3>
+                </div>
+                <img src="{{ project.imageUrl }}" alt="">
+                <div class="card-section">
+                    <a href="{{ project.github }}"><i class="fi-social-github"></i> {{ project.github }}</a>
+                    <p>{{ project.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

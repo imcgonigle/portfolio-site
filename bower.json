@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio",
+  "description": "My personal portfolio made in AngularJS.",
+  "main": "index.js",
+  "authors": [
+    "imcgonigle <ian.is.mcgonigle@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/imcgonigle/portfolio-site",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "jquery": "^3.1.1",
+    "animate.css": "^3.5.2",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

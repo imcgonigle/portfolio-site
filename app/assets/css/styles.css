@@ -1,0 +1,58 @@
+html, body {
+  overflow-y: auto; }
+
+body {
+  font-size: medium;
+  background: #fcfcf0;
+  color: #373c44; }
+
+.intro-section {
+  padding-top: 6rem;
+  padding-bottom: 3rem; }
+
+.intro-text {
+  padding: 2rem;
+  font-size: 1.3rem; }
+
+.profile-picture {
+  max-height: 17rem;
+  border-radius: 50%;
+  border: 2px solid #666; }
+
+.portfolio-section {
+  padding: 3rem 0; }
+  .portfolio-section .row {
+    padding: 2rem 0; }
+  .portfolio-section .card {
+    border-radius: 2px;
+    max-width: 18rem;
+    margin: auto;
+    margin-bottom: 3rem; }
+
+.site-banner {
+  padding: 1rem 0 1rem 0;
+  background: linear-gradient(to right, #0FAFD3, #0FAFD3 60%, #2D98BE);
+  box-shadow: 1px 1px 6px #373c44; }
+
+.title h1 {
+  padding: 0;
+  margin: 0;
+  color: #fefefe; }
+
+.title h3 small {
+  margin: 0 .2rem;
+  font-weight: 700;
+  color: #373c44; }
+
+.contact-container {
+  padding: 3rem; }
+  .contact-container .row {
+    margin-bottom: 3rem; }
+  .contact-container a {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center; }
+    .contact-container a i {
+      font-size: 2.3rem;
+      color: #2D98BE;
+      margin-right: 0.5rem; }

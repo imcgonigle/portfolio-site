@@ -1,0 +1,10 @@
+// styles.scss
+
+// import global styles
+@import "global/settings";
+
+// Component styles
+@import "components/intro-section";
+@import "components/portfolio";
+@import "components/site-header";
+@import "components/contact";

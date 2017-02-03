@@ -4,29 +4,42 @@
         <title>Ian McGonigle - Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- build:css css/styles.min.css -->
         <link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation-flex.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <!-- endbuild -->
+
+        <!-- foundation icon font -->
         <link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
-        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--build:js js/main.min.js -->
         <script src="bower_components/angular/angular.js"></script>
         <script src="app.module.js"></script>
 
         <!-- Import Site Header -->
-        <script src="site-header/site-header.module.js"></script>
-        <script src="site-header/site-header.component.js"></script>
+        <script src="components/site-header/site-header.module.js"></script>
+        <script src="components/site-header/site-header.component.js"></script>
 
         <!-- Import Introduction Section -->
-        <script src="intro-section/intro-section.module.js"></script>
-        <script src="intro-section/intro-section.component.js"></script>
+        <script src="components/intro-section/intro-section.module.js"></script>
+        <script src="components/intro-section/intro-section.component.js"></script>
 
         <!-- Import Portfolio Module -->
-        <script src="portfolio/portfolio.module.js"></script>
-        <script src="portfolio/portfolio.component.js"></script>
+        <script src="components/portfolio/portfolio.module.js"></script>
+        <script src="components/portfolio/portfolio.component.js"></script>
 
+        <!-- Import Contact section -->
+        <script src="components/contact/contact.module.js"></script>
+        <script src="components/contact/contact.component.js"></script>
+        
+        <!-- endbuild -->
     </head>
     <body>
         <site-header></site-header>
         <intro-section></intro-section>
         <hr>
         <portfolio></portfolio>
+        <hr>
+        <contact></contact>
     </body>
 </html>

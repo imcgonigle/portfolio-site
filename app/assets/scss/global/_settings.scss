@@ -1,0 +1,16 @@
+// global/_settings.scss
+
+$colorPrimary: #2D98BE;
+$colorPrimaryLight: #0FAFD3;
+$colorLight: #fcfcf0;
+$colorDark: #373c44;
+
+html, body {
+    overflow-y: auto;
+}
+
+body {
+    font-size: medium;
+    background: $colorLight;
+    color: $colorDark;
+}
