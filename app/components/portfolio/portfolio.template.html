@@ -6,11 +6,12 @@
         <div class="small-12 medium-4 large-3 columns" ng-repeat="project in $ctrl.projects">
             <div class="card">
                 <div class="card-divider">
-                    <h3 class="text-center">{{ project.title }}</h3>
+                    <h4 class="text-center">{{ project.title }}</h4>
                 </div>
-                <img src="{{ project.imageUrl }}" alt="">
+                <img ng-src="{{ project.imageUrl }}" alt="{{project.name}} screenshot">
                 <div class="card-section">
-                    <a href="{{ project.github }}"><i class="fi-social-github"></i> {{ project.github }}</a>
+                    <a href="{{ project.github }}"><i class="fi-social-github"></i></a>
+                    <hr>
                     <p>{{ project.description }}</p>
                 </div>
             </div>

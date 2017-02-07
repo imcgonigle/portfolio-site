@@ -2,11 +2,11 @@
     'use strict';
 
     // Defining the application module
-    angular.module('app', [ 
+    angular.module('app', [
         'siteHeader',
         'introSection',
         'portfolio',
-        'contact'
-    ]);
+        'contact',
+    ])
     
 }());

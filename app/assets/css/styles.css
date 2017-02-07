@@ -3,7 +3,7 @@ html, body {
 
 body {
   font-size: medium;
-  background: #fcfcf0;
+  background: #f4f9f4;
   color: #373c44; }
 
 .intro-section {
@@ -28,6 +28,16 @@ body {
     max-width: 18rem;
     margin: auto;
     margin-bottom: 3rem; }
+    .portfolio-section .card .card-divider {
+      background: #373c44;
+      color: #0FAFD3; }
+    .portfolio-section .card .card-section i {
+      font-size: 2rem;
+      color: #0FAFD3; }
+    .portfolio-section .card .card-section hr {
+      padding: 0;
+      margin-top: 0;
+      border-bottom: 1px solid #2D98BE; }
 
 .site-banner {
   padding: 1rem 0 1rem 0;
@@ -51,8 +61,8 @@ body {
   .contact-container a {
     font-size: 1.5rem;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    color: #0FAFD3; }
     .contact-container a i {
-      font-size: 2.3rem;
-      color: #2D98BE;
-      margin-right: 0.5rem; }
+      margin-right: 0.5rem;
+      font-size: 2.3rem; }

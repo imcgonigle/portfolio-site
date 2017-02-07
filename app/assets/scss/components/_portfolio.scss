@@ -8,5 +8,22 @@
         max-width: 18rem;
         margin: auto;
         margin-bottom: 3rem;
+
+        .card-divider {
+            background: $colorDark;
+            color: $colorPrimaryLight;
+        }
+
+        .card-section {
+            i {
+                font-size: 2rem;
+                color: $colorPrimaryLight;
+            }
+            hr {
+                padding: 0;
+                margin-top: 0;
+                border-bottom: 1px solid $colorPrimary;
+            }
+        }
     }
 }

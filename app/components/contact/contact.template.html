@@ -4,33 +4,40 @@
     </div>
     <div class="row">
         <div class="small-12 medium-8 medium-offset-2 large-6 large-offset-0 columns">
-            <form>
+            <h3>Send a Message</h3>
+            <hr>
+            <form >
                 <label for="name">Your Name</label>
-                <input type="text" name="name">
+                <input type="text" name="name" placeholder="Full Name" ng-model="contactData.name">
 
                 <label for="email">Email Address</label>
-                <input type="email" name="email">
+                <input type="email" name="email" placeholder="email@example.com" ng-model="contactData.email">
 
                 <label for="phone">Phone Number</label>
-                <input type="text" name="phone">
+                <input type="text" name="phone" placeholder="(303) 123-4567" ng-model="contactData.phone">
 
                 <label for="company">Your Company</label>
-                <input type="text" name="company">
+                <input type="text" name="company" placeholder="Company inc" ng-model="contactData.company">
 
                 <label for="message">Your Message</label>
-                <textarea rows="10" cols=""></textarea>
+                <textarea rows="10" ng-model="contactData.message"></textarea>
                 
-                <input class="button expanded" type="submit" value="Send Message">
+                <input class="button expanded" type="submit" value="Send Message" ng-submit="$ctrl.submitContactForm(contactData)">
+                <pre>
+                    data = {{ contactData | json }}
+                </pre>
             </form>
         </div>
 
         <div class="small-12 medium-12 large-4 large-offset-1 columns contact-info">
+            <h3>Follow Me</h3>
+            <hr>
             <div class="social-icons">
-                <a href=""><i class="fi-social-linkedin"></i> /imcgonigle</a>
+                <a href="https://www.linkedin.com/in/imcgonigle"><i class="fi-social-linkedin"></i> /imcgonigle</a>
                 <br>
-                <a href=""><i class="fi-social-github"></i> /imcgonigle</a>
+                <a href="https://github.com/imcgonigle"><i class="fi-social-github"></i> /imcgonigle</a>
                 <br>
-                <a href=""><i class="fi-mail"></i> hello@ianmcgonigle.me</a>
+                <a href="mailto:hello@ianmcgonigle.me"><i class="fi-mail"></i> hello@ianmcgonigle.me</a>
                 <br>
             </div>
         </div>

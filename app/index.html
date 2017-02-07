@@ -4,6 +4,7 @@
         <title>Ian McGonigle - Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        
         <!-- build:css css/styles.min.css -->
         <link rel="stylesheet" href="bower_components/foundation-sites/dist/css/foundation-flex.min.css">
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -11,7 +12,7 @@
 
         <!-- foundation icon font -->
         <link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
-
+        
         <!--build:js js/main.min.js -->
         <script src="bower_components/angular/angular.js"></script>
         <script src="app.module.js"></script>
@@ -34,7 +35,8 @@
         
         <!-- endbuild -->
     </head>
-    <body>
+    <body ng-cloak>
+        <div ng-view></div>
         <site-header></site-header>
         <intro-section></intro-section>
         <hr>

@@ -8,11 +8,11 @@
         font-size: 1.5rem;
         display: flex;
         align-items: center;
+        color: $colorPrimaryLight;
         
         i{
-            font-size: 2.3rem;
-            color: $colorPrimary;
             margin-right: 0.5rem;
+            font-size: 2.3rem;
         }
     }
 }
